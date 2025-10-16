@@ -1,0 +1,17 @@
+body{
+
+    background-color: rgb(70, 53, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.title{
+    text-align: center;
+    margin: 30vh;
+    color: black;
+}
+
+.text{
+    color: black;
+
+}
