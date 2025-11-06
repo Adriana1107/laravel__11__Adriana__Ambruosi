@@ -4,9 +4,9 @@
       <div class="col-12 col-md-6">
           <h1 class="mb-4">Tutti gli articoli del blog</h1>
 
-          <x-card/>
-
            @foreach($articles as $article)
+           
+    <x-card :article="$article" />
       <div class="card mb-3 mt-5">
         <div class="card-body">
           <h3>{{ $article->title }}</h3>
@@ -31,6 +31,9 @@
     @if($articles->isEmpty())
       <p class="my-5">Nessun articolo presente.</p>
     @endif
+
+
+
     </div>
 
       </div>
